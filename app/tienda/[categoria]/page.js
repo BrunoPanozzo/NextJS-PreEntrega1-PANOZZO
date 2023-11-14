@@ -1,3 +1,4 @@
+import NotFound from '@/app/not-found'
 import ListaProductos from '@/components/productos/ListaProductos'
 import MenuCategorias from '@/components/productos/MenuCategorias'
 
@@ -11,8 +12,27 @@ export async function generateMetadata({params, searchParams}, parent) {
 
 const ProductosPage = ({params}) => {
 
+    const rutasDinamicas = [
+        "todos",
+        "Moviles",
+        "TV-Audio",
+        "Electrodomesticos",
+        "Computacion"
+    ]
+    
     const { categoria } = params
 
+    console.log(categoria)
+
+    const itemExistente = rutasDinamicas.some((item) => item === categoria)
+
+    console.log(itemExistente)
+
+    if(!itemExistente)
+        return (
+        <NotFound/>
+        )
+        
     return (
         <main className="container m-auto">
             <h2 className="text-2xl my-10 border-b pb-4">Productos</h2>

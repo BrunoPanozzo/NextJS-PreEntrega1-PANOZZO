@@ -13,7 +13,7 @@ const links = [
 const MenuCategorias = () => {
 
     const pathname = usePathname()
-
+    
     return (
         <aside className="flex flex-col gap-3">
             {links.map(link => (
@@ -23,7 +23,7 @@ const MenuCategorias = () => {
                         className={`${pathname === link.href ? "text-blue-600 border-b font-semibold" :''} py-2 hover:font-bold hover:text-blue-600 `}
                     >
                         {link.label}
-                    </Link>
+                    </Link>                    
                 ))}
         </aside>
     )

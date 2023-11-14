@@ -2,12 +2,18 @@ import Image from "next/image"
 import { mockData } from "@/data/productos"
 import Retornar from "../ui/Retornar"
 import Contador from "../ui/Contador"
+import NotFound from "@/app/not-found"
 
 
 const DetalleProducto = ({slug}) => {
 
     const producto = mockData.find(item => item.slug === slug)
 
+    if (!producto)
+        return(
+            <NotFound/>
+    )
+    
     return (
         <div className="max-w-4xl m-auto">
             <Retornar className="text-sm text-blue-500 mb-6">
