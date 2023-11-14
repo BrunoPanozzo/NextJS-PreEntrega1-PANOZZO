@@ -21,18 +21,14 @@ const ProductosPage = ({params}) => {
     ]
     
     const { categoria } = params
-
-    console.log(categoria)
-
+  
     const itemExistente = rutasDinamicas.some((item) => item === categoria)
-
-    console.log(itemExistente)
-
+   
     if(!itemExistente)
         return (
         <NotFound/>
         )
-        
+
     return (
         <main className="container m-auto">
             <h2 className="text-2xl my-10 border-b pb-4">Productos</h2>
