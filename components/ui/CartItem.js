@@ -20,7 +20,7 @@ const CartItem = ({ producto }) => {
                     <p className="pb-1 text-xl font-bold mb-0">Subtotal = $ {(producto.stock * producto.precio).toLocaleString()}</p>
                 </div>
                 <div className="relative flex-grow max-w-full flex-1 px-4 self-center">
-                    <button type="button" className="w-40 h-12 border font-normal rounded py-1 px-3 bg-orange-400 text-black hover:bg-orange-500 text-decoration text-center">
+                    <button type="button" className="w-40 h-12 border font-normal rounded py-1 px-3 bg-orange-400 text-black hover:bg-orange-500 hover:text-decoration hover:text-center">
                         <p className="mb-3">Cancelar compra</p>
                     </button>
                 </div>

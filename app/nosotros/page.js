@@ -9,7 +9,7 @@ export default function Nosotros() {
                 <hr />
                 <p className="text-base mt-4 font-mono">SITIO EN CONSTRUCCIÓN</p>
 
-                <div class="font-mono text-lg my-4">
+                <div className="font-mono text-lg my-4">
                     <Retornar>
                         Volver
                     </Retornar>

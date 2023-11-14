@@ -20,7 +20,7 @@ const MenuCategorias = () => {
                     <Link 
                         key={link.label} 
                         href={link.href}
-                        className={`${pathname === link.href ? "font-semibold border-b" :''} py-2`}
+                        className={`${pathname === link.href ? "text-blue-600 border-b font-semibold" :''} py-2 hover:font-bold hover:text-blue-600 `}
                     >
                         {link.label}
                     </Link>

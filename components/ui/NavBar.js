@@ -2,6 +2,7 @@ import Image from "next/image"
 import styles from './navBar.module.css'
 import Link from 'next/link'
 import CartWidget from "./CartWidget"
+import NavBarItem from "./NavBarItem"
 
 const enlaces = [
     {
@@ -38,13 +39,7 @@ const NavBar = () => {
             <div className="flex-initial justify-center items-end text-center px-44 py-2 m-2">
                 {
                     enlaces.map(link => {
-                        return <Link
-                            key={link.label}
-                            href={link.href}
-                            className={`text-slate-100 p-3 no-underline text-xl m-4 hover:text-blue-600 bg-transparent font-bold`}
-                        >
-                            {link.label}
-                        </Link>
+                        return <NavBarItem enlace={link}/>
                     })
                 }
             </div>

@@ -10,7 +10,10 @@ const DetalleProducto = ({slug}) => {
 
     return (
         <div className="max-w-4xl m-auto">
-            <Retornar className="text-sm text-blue-500 underline mb-6"/>
+            <Retornar className="text-sm text-blue-500 mb-6">
+                Volver
+            </Retornar>
+
             <section className="flex gap-6">
                 <div className="relative basis-1/2">
                     <Image
