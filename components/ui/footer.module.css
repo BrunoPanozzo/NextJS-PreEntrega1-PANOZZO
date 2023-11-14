@@ -1,0 +1,81 @@
+.pie {
+    padding-bottom: 20px;
+    background-image: linear-gradient(to right, #021181, rgb(2, 27, 170), rgb(1, 62, 161));
+    border-top: 10px solid #0b0606;
+    min-height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.bloqueFooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+    padding-left: 200px;
+}
+
+.tituloImportante2 {
+    text-align: left;
+    font-size: 25px;
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: underline;
+    color: #dffffb;
+    margin: 30px;
+}
+
+.lista1 {
+    max-width: 200px;
+    color: #dffffb;
+}
+
+.lista2 {
+    max-width: 180px;
+    color: #dffffb;
+}
+
+.redesSociales {
+    padding-left: 150px;
+    padding-top: 75px;
+    text-align: center;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.redes-sociales a {
+    color: blue;
+    font-size: 35px;
+    margin: 15px 15px;
+    padding-left: 50px;
+}
+
+.redes-sociales a:hover {
+    color: #333;
+    font-size: 40px;
+}
+
+.redes-sociales button {
+    font-size: 15px;
+    margin: 15px 15px;
+    padding-left: 50px;
+}
+
+.redes-sociales button:hover {
+    font-size: 20px;
+}
+
+.redes-sociales .btn-secondary {
+    background-color: blueviolet;
+}
