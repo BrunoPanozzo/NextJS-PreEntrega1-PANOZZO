@@ -1,0 +1,22 @@
+.prod {
+    margin: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+.itemPrecio {
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.prod:hover {
+    border: 1px solid #a79393;
+    border-radius: 10px;
+    background-color: rgb(210, 210, 232);
+}
+
+.btnEliminarItem {
+    width: 150px;
+    height: 50px;
+}

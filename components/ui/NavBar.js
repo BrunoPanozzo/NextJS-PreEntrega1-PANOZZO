@@ -25,7 +25,7 @@ const enlaces = [
 const NavBar = () => {
 
     return (
-        <nav className={`${styles.navEncabezado} "flex-1 justify-center text-gray-700 text-center bg-gray-400 px-4 py-2`}>
+        <nav className={`${styles.navEncabezado} flex-1 justify-center text-gray-700 text-center bg-gray-400 px-4 py-2`}>
             <Link href={"/"}>
                 <Image
                     src={"/imgs/NavBar/logo-brand.png"}
