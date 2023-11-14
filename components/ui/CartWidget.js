@@ -14,7 +14,7 @@ const CartWidget = () => {
                         width={100}
                         height={70}
                     />
-                    <span id="cantidadProductos" className="absolute p-1 text-center font-semibold text-sm rounded-full py-2 px-4 bg-blue-600">{cantidadProductos}</span>
+                    <span id="cantidadProductos" className="flex justify-end absolute p-1 text-center font-semibold text-sm rounded-full py-2 px-4 bg-blue-600">{cantidadProductos}</span>
                 </Link>
         </div>
     )

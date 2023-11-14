@@ -19,7 +19,7 @@ const ProductosPage = ({params}) => {
 
             <div className="flex gap-10">
                 <MenuCategorias />
-                <ListaProductos categoria={categoria}/>
+                <ListaProductos categoria={categoria} mostrarBotones={false}/>
             </div>
         </main>
     )

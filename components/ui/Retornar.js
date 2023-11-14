@@ -2,15 +2,16 @@
 "use client"
 
 import { useRouter } from "next/navigation"
+import Boton from "./Boton"
 
 const Retornar = ({children, ...args}) => {
     
     const router = useRouter()
 
     return (
-        <button onClick={() => router.back()} {...args}>
+        <Boton onClick={() => router.back() } {...args}>
             {children}
-        </button>
+        </Boton>
     )
 }
 

@@ -6,7 +6,6 @@ import Contador from "../ui/Contador"
 
 const DetalleProducto = ({slug}) => {
 
-    console.log(slug)
     const producto = mockData.find(item => item.slug === slug)
 
     return (

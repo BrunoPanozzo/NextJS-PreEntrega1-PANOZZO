@@ -22,7 +22,7 @@ export default function ContactoPage() {
                         <input class="w-full shadow border border-blue-100 rounded py-2 px-3 text-gray-700 font-mono" type="email" placeholder="Tu email" required/>
                     </div>                                              
                     <div class="flex items-center justify-between font-mono text-lg">
-                        <Boton type="submit"> Aceptar </Boton>
+                        <Boton type="submit" className="flex justify-between items-center ml-auto font-mono text-lg my-4"> Aceptar </Boton>
                     </div>
                 </form>                    
             </main>
